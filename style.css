@@ -106,6 +106,7 @@ body {
   border: none;
   background: none;
   left: 161px;
+  cursor: pointer;
 }
 
 .header .header__slider-left:focus {
@@ -118,6 +119,7 @@ body {
 
 .header .header__slider-right {
   position: absolute;
+  cursor: pointer;
   top: 451px;
   border: none;
   background: none;
@@ -169,6 +171,7 @@ body {
   background: #988574;
   border-radius: 3px;
   width: 170px;
+  cursor: pointer;
   height: 53px;
   border: none;
   color: #FFFFFF;
@@ -194,6 +197,7 @@ body {
 
 .header .header__pagination .header__slider {
   width: 10px;
+  cursor: pointer;
   height: 10px;
   white-space: nowrap;
   border: none;
@@ -234,10 +238,6 @@ body {
   margin-bottom: 30px;
 }
 
-.services .services__card .special-img:hover {
-  fill: #c7b299;
-}
-
 .services .services__card:hover {
   color: #c7b299;
   cursor: pointer;
@@ -270,6 +270,18 @@ body {
 
 .services .services__card .services__hr:hover {
   background-color: #C7B199;
+}
+
+.services__card:hover .services__h3 {
+  color: #C7B299;
+}
+
+.services__card:hover .special-img {
+  fill: #C7B299;
+}
+
+.services__card:hover .services__hr {
+  background-color: #C7B299;
 }
 
 .waxom {
@@ -336,6 +348,7 @@ body {
   margin-top: 56px;
   margin-bottom: 41px;
   padding-top: 19px;
+  cursor: pointer;
   border: none;
   border-radius: 3px;
   background-color: #988574;
@@ -373,6 +386,7 @@ body {
   font-size: 14px;
   line-height: 16px;
   margin-bottom: 33px;
+  cursor: pointer;
 }
 
 .latest .latest__btn:focus {
@@ -410,6 +424,7 @@ body {
 .latest .latest__btn-item {
   margin-right: 10px;
   border: none;
+  cursor: pointer;
   border: 1px solid #EBEBEB;
   border-radius: 3px;
   font-family: "Montserrat";
@@ -500,6 +515,7 @@ body {
 
 .video .video__img {
   margin-top: 248px;
+  cursor: pointer;
   margin-bottom: 31px;
 }
 
@@ -656,8 +672,57 @@ body {
           justify-content: space-between;
 }
 
+.resent .resent__cards .resent__card:hover {
+  background-color: #352F2D;
+  cursor: pointer;
+}
+
+.resent .resent__cards .resent__card:hover .resent__h3 {
+  color: #C7B299;
+}
+
+.resent .resent__cards .resent__card:hover .resent__p2 {
+  color: #FFFFFF;
+}
+
 .resent .resent__cards .resent__card {
   margin-bottom: 54px;
+  position: relative;
+}
+
+.resent .resent__cards .resent__card .resent__date {
+  position: absolute;
+  text-align: center;
+  top: 20px;
+  left: 20px;
+}
+
+.resent .resent__cards .resent__card .resent__date .data {
+  font-family: "Montserrat", sans-serif;
+  font-size: 24px;
+  line-height: 20px;
+  font-weight: 300;
+  color: #ffffff;
+  width: 50px;
+  background-color: #363636;
+  border-radius: 3px 3px 0 0;
+  margin: 0 0 0 0;
+  padding: 10px 0 10px 0;
+  display: block;
+}
+
+.resent .resent__cards .resent__card .resent__date .day {
+  margin: 0 0 0 0;
+  padding: 5px 0 5px 0;
+  font-family: "Roboto", sans-serif;
+  font-size: 12px;
+  line-height: 20px;
+  font-weight: 400;
+  color: #ffffff;
+  width: 50px;
+  background-color: #252525;
+  border-radius: 0 0 3px 3px;
+  display: block;
 }
 
 .resent .resent__cards .resent__card .resent__h3 {
@@ -674,6 +739,7 @@ body {
 .resent .resent__cards .resent__card .resent__p2 {
   font-size: 14px;
   line-height: 22px;
+  width: 311px;
   color: #000000;
   margin-left: 23px;
   margin-bottom: 17px;
@@ -687,6 +753,14 @@ body {
   margin-bottom: 22px;
 }
 
+.resent .resent__cards .resent__card:hover .data {
+  background-color: #C7B199;
+}
+
+.resent .resent__cards .resent__card:hover .day {
+  background-color: #A48D71;
+}
+
 .resent .buttons {
   margin-top: 100px;
   text-align: center;
@@ -697,6 +771,7 @@ body {
   border: none;
   background: none;
   margin-right: 9px;
+  cursor: pointer;
 }
 
 .resent .buttons .resent__btn-left:focus {
@@ -707,6 +782,7 @@ body {
   border: none;
   background: none;
   margin-left: 9px;
+  cursor: pointer;
 }
 
 .resent .buttons .resent__btn-right:focus {
